@@ -140,7 +140,7 @@ function App() {
         </CardContent>
       </Card>
       <Card>
-        <h4>Made with love by Humza aka codewithbravopy : IG 🔥 </h4>
+        
       </Card>
     </div>
   );
