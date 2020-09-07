@@ -27,10 +27,16 @@ function App() {
   return (
     <div className='App'>
       <h1>
-        The 5-Days React Javascript Challenge<span role='img'>🔥</span>
+        The 5-Days React Javascript Challenge
+        <span role='img' aria-label='fire'>
+          🔥
+        </span>
       </h1>
       <h3>
-        Team CP <span role='img'>🚀</span>
+        Team CP{' '}
+        <span role='img' aria-label='rocket'>
+          🚀
+        </span>
       </h3>
       <hr />
       <Card className={classes.root}>
@@ -115,7 +121,7 @@ function App() {
 
           <Typography variant='body2' className={classes.answer} component='p'>
             No Fancy words here, just beecause I LOVE IT!!! Also because its
-            ducking amazing ♥
+            ducking amazing
           </Typography>
         </CardContent>
       </Card>
@@ -139,9 +145,7 @@ function App() {
           </Typography>
         </CardContent>
       </Card>
-      <Card>
-        
-      </Card>
+      <Card></Card>
     </div>
   );
 }
